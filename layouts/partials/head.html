@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
     {{ range .Site.Params.customCss -}}
-        <link rel="stylesheet" href="{{ . | absURL }}">
+        <link rel="stylesheet" href="{{ . }}"  type="text/css>
     {{- end }}
 
     {{ hugo.Generator }}
