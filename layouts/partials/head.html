@@ -14,7 +14,7 @@
     <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
     <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+    <link rel="stylesheet" href="/css/style.css">
     {{ range .Site.Params.customCss -}}
         <link rel="stylesheet" href="{{ . | absURL }}">
     {{- end }}
